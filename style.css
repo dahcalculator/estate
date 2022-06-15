@@ -6,6 +6,24 @@
 }
 
 
+.log{
+    margin: 0;
+    align-items: end;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+ #logo{
+     margin: 0;
+     padding: 0;
+     border: solid red 2px;
+  max-width: 100%;
+  height: 170px;
+  background: none;
+}
 
 
 header{
@@ -69,12 +87,7 @@ a{
 }
 
 
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 740px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  
-  
+@media(max-width: 768px) 
   {
 @font-face {
     font-family: teko;
@@ -114,7 +127,10 @@ a{
         background-size: cover;
       }
 
-header{
+     
+
+
+      header{
     position: sticky;
     font-family: teko;
 }
@@ -436,3 +452,7 @@ height: auto;
 
 
 }
+
+
+
+
